@@ -25,7 +25,7 @@ function enterFriendName()
      enterName.value = "";
      enterName.focus();
 
-     console.log(friend); 
+   
      
       let item = document.createElement("li");
       item.textContent = friendName;
@@ -33,26 +33,12 @@ function enterFriendName()
      
    }
 
-function showFriendList()
-   {
-     
-   //   list.innerHTML = "";
-   // list.innerHTML = showFriendList();
-
-   //   for (let i = 0; i < friend.length; i++)
-   //     {
-   //       let item = document.createElement("li");
-   //       item.textContent = friend[i];
-   //       list.appendChild(item);
-   //     }
-
-   }
 
    function sortFriendList()
    {
      let result = Math.floor (Math.random() * friend.length);
      friendResult = friend[result];
-     console.log(friendResult);
+     
 
      showResults();
    }

@@ -5,3 +5,5 @@
 - JavaScript
 - CSS
 - HTML
+
+PD: Mi juego del amigo secreto esta en ingles, pero aun asi tiene las mismas funcionalidades
